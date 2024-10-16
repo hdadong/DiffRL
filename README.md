@@ -52,7 +52,7 @@ In this paper, we present a GPU-based differentiable simulation and propose a po
 A test example can be found in the `examples` folder.
 
 ```
-python test_env.py --env AntEnv
+CC=/usr/bin/gcc-8 CXX=/usr/bin/g++-8 python test_env.py --env AntEnv
 ```
 
 If the console outputs `Finish Successfully` in the last line, the code installation succeeds.
